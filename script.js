@@ -255,6 +255,10 @@ function addHtmlObjectsToTable(objects)
     }
 }
 
+// TODO: disable animations should stop 
+//    animations on whole div, 
+//    not just the words themselves
+// function removed from index.html pending fix
 function disableAnimations()
 {
     document.querySelectorAll("span").forEach((element) =>
