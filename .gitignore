@@ -1,0 +1,11 @@
+# ignore system files
+MD_Store
+
+# ignore node_modules
+node_modules
+
+# ignore files related to API keys
+.env
+
+# ignore text files
+*.txt

@@ -26,7 +26,7 @@ var mbti_data = [
     },
     {
         type: "ISFP",
-        characteristics: ["Gentle", "Sensitive", "Nurturing", "Helpful", "Flexible", "Realistic"],
+        characteristics: ["Gentle", "Sensitive", "Nurturing", "Helpful", "Flexible", "Realistic",],
         description: "Seek to create a personal environment that is both beautiful and practical."
     },
     {
@@ -82,7 +82,7 @@ var mbti_data = [
 ]
 
 var current_choices = []
-var max_items_per_row = 9
+var max_items_per_row = 5
 
 addHtmlObjectsToTable(createHtmlElementsFromCharacteristics(extractUniqueCharacteristics(convertDataToTuples(mbti_data))))
 
@@ -262,4 +262,3 @@ function disableAnimations()
         element.classList.remove("floating")
     })
 }
-

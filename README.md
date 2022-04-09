@@ -1,9 +1,9 @@
-# mbti-by-characteristics
-Get a first idea about the MBTI type of a person by choosing some attributes of theirs.
+# personality quiz
 
-Accessible via:  https://jandestiny.github.io/mbti-by-characteristics/
+use this quiz to get a rough sketch of someone's personality type based on selected character traits. 
+
+try it out at https://magdalenamucho.github.io/quiz
+
+based on: https://jandestiny.github.io/mbti-by-characteristics/
 
 Data source used: https://commons.wikimedia.org/wiki/File:MyersBriggsTypes.png
-
-
-![mbti-by-characteristics](https://user-images.githubusercontent.com/39858598/137643462-57c23748-3985-41a0-9ef7-7a4352534ab5.gif)

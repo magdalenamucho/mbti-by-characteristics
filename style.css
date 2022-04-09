@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(0, 0, 22);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://magdalenamucho.github.io/quiz/grad.jpeg");
+    color: darkblue;
+    font-family: Helvetica, Verdana, sans-serif;
+    background-repeat: repeat-y;
+    background-position: bottom center;
 }
 
 #title{
@@ -15,6 +17,10 @@ h4{
 #floatingarea{
     display: flex;
     justify-content: center;
+    border: 2px groove transparent;
+    border-radius: 10px;
+	  transform: translatey(0px);
+      animation: float 3s ease-out infinite;
 }
 
 td{
@@ -32,7 +38,7 @@ td{
 }
 
 .floating{
-    width: 110px;
+  width: 125px;
 	height: 20px;
 	box-sizing: border-box;
 	overflow: visible;
@@ -40,6 +46,8 @@ td{
 	transform: translatey(0px);
     animation: float 3s ease-out infinite;
     text-align: center;
+  border: 2px solid transparent;
+  border-radius: 8px;
 }
 
 #options{
@@ -50,13 +58,18 @@ td{
 
 .option{
     display: block;
-    width: 25%;
+    width: 50%;
     height: 3vh;
     margin: auto;
+    background-image: url("https://magdalenamucho.github.io/quiz/grad.jpeg");
+    background-position: bottom center;
+    box-shadow: 3px 3px moccasin;
+    color: antiquewhite;
+
 }
 
 .clicked{
-    background-color: white;
+    background-color: moccasin;
     border-radius: 3px;
     color: black;
 }
@@ -85,10 +98,14 @@ td{
 #resultContainer{
     width: 50%;
     margin-left: 25%;
-    background-color: blanchedalmond;
-    border-radius: 2px;
+    background-color: seashell;
+    border: 5px ridge transparent;
+    border-radius: 15px;
     text-align: center;
     margin-bottom: 50px;
+  	transform: translatey(0px);
+      animation: float 30s ease-out infinite;
+      text-align: center;
 }
 
 .result{
